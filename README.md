@@ -1,8 +1,8 @@
-# DermaDetect: Skin Condition Analysis using YOLOv8, InceptionV3, and Qwen2-VLM
+# SkinVision: Skin Condition Analysis using YOLOv8, InceptionV3, and Qwen2-VLM
 
 ## Overview
 
-**DermaDetect** is a comprehensive solution for analyzing skin conditions, specifically focusing on acne detection and jaundice prediction. The project leverages advanced machine learning models—**YOLOv8** for acne detection and **InceptionV3** for jaundice prediction. Additionally, it integrates **Qwen2-VLM** to provide personalized advice based on the analysis results. The application is deployed using the Flask web framework, ensuring an accessible and user-friendly interface.
+**SkinVision** is a comprehensive solution for analyzing skin conditions, specifically focusing on acne detection and jaundice prediction. The project leverages advanced machine learning models—**YOLOv8** for acne detection and **InceptionV3** for jaundice prediction. Additionally, it integrates **Qwen2-VLM** to provide personalized advice based on the analysis results. The application is deployed using the Flask web framework, ensuring an accessible and user-friendly interface.
 
 ## Table of Contents
 
@@ -14,19 +14,7 @@
 
 The repository is organized as follows:
 
-DermaDetect/ ├── models 
-             ├── src/ 
-                 │ ├── templates 
-                   ├── app.py 
-                       └── __init__.py
-                       └── forms.py
-                       └── image_processing.py
-                       └── llm.py
-                       └── models.py
-                       └── routes.py
-             ├── requirements.txt
-             ├── run.py
-             ├── dlib-19.24.1-cp311-cp311-win_amd64.whl
+SkinVision/ ├── models/ ├── src/ │ ├── templates/ │ ├── app.py │ ├── init.py │ ├── forms.py │ ├── image_processing.py │ ├── llm.py │ ├── models.py │ └── routes.py ├── requirements.txt ├── run.py └── dlib-19.24.1-cp311-cp311-win_amd64.whl
 
 ## Installation
 
@@ -42,7 +30,7 @@ To set up the project locally, follow these steps:
    python -m venv venv
    source venv/bin/activate  # On Windows, use 'venv\Scripts\activate'
 
-3. **Install the dependencies**:
+4. **Install the dependencies**:
 
    pip install -r "req.txt"
 
