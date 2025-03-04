@@ -13,9 +13,21 @@
 ## Project Structure
 
 The repository is organized as follows:
-
-SkinVision/ ├── models/ ├── src/ │ ├── templates/ │ ├── app.py │ ├── init.py │ ├── forms.py │ ├── image_processing.py │ ├── llm.py │ ├── models.py │ └── routes.py ├── requirements.txt ├── run.py └── dlib-19.24.1-cp311-cp311-win_amd64.whl
-
+```
+SkinVision/
+├── models/
+├── src/
+│   ├── templates
+│   ├── __init__.py
+│   ├── forms.py
+│   ├── image_processing.py
+│   ├── llm.py
+│   ├── models.py
+│   └── routes.py
+├── requirements.txt
+├── run.py
+└── dlib-19.24.1-cp311-cp311-win_amd64.whl
+```
 ## Installation
 
 To set up the project locally, follow these steps:
