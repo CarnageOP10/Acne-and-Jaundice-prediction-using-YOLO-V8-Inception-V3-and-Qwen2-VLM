@@ -33,21 +33,23 @@ SkinVision/
 To set up the project locally, follow these steps:
 
 1. **Clone the repository**:
-
+   ```
    git clone https://github.com/CarnageOP10/SkinVision-Acne-Jaundice-Prediction-with-YOLOv8-InceptionV3-and-Qwen2-VLM.git
    cd SkinVision-Acne-Jaundice-Prediction-with-YOLOv8-InceptionV3-and-Qwen2-VLM
-
+   ```
+   
 2. **Create a virtual environment**:
-
+   ```
    python -m venv venv
    source venv/bin/activate  # On Windows, use 'venv\Scripts\activate'
-
+   ```
 4. **Install the dependencies**:
-
+   ```
    pip install -r "req.txt"
-
+   ```
 ## Usage
 
 get your roboflow and huggingface api keys
-
+```
 python run.py
+```
